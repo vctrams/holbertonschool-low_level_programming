@@ -1,0 +1,5 @@
+CC = gcc -Wall -Werror
+SRC = main.c school.c
+
+all: $(SRC)
+	$(CC) $(SRC) -o school
