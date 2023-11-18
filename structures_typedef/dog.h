@@ -3,9 +3,9 @@
 
 /**
  * struct dog - a dog's basic info
- * @name: type = char *
- * @age: type = float
- * @owner: type = char *
+ * @name: name of the dog.
+ * @age: age of the dog.
+ * @owner: owner of the dog.
  */
 
 struct dog
@@ -14,3 +14,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
